@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "1019350074233",
+    "project_id": "gcmtester-53379"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019350074233:android:6b4c9dc241f9ff6b",
+        "android_client_info": {
+          "package_name": "com.example.jacky.gcmtester"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFFp2c2KI54jQyxJTm6gDYXMOtzvV2UNw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
