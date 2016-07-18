@@ -33,13 +33,14 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="Token"
         android:id="@+id/tokenTv"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:textAlignment="center" />
 
     <Button
         android:layout_width="wrap_content"
@@ -50,21 +51,23 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/sendMsgEt"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="193dp" />
-
-    <Button
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Send Message"
-        android:id="@+id/sendMsgBtn"
-        android:layout_alignTop="@+id/sendMsgEt"
+        android:text="Message Received"
+        android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp" />
+        android:id="@+id/textView4"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/MessageLayout"
+        android:layout_below="@+id/textView4"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:textAlignment="center"></LinearLayout>
 
 </RelativeLayout>
